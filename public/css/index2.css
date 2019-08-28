@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Indie Flower', cursive;
+}
+
+body{
+    background-image: url("../img/back.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container{
+    width: 100%;
+}
+.container .info{
+    margin: auto;
+    background: rgba(215,207,207, 0.9);
+    border-radius: 20px;
+    width: 80%;
+    padding: 20px;
+    margin-top: 13%;
+}
+.container .info form{
+    text-align: center;
+}
+.container .info form h2{
+    color:forestgreen;
+    font-size: 70px;
+    transition: all .4s ease;
+    display: inline-block;
+}
+.container .info form button{
+    width: 100%;
+    margin-top: 15px;
+}
+.container .info .link{
+    margin: 10px;
+    font-size: 30px;
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: 1px solid transparent;
+    transition: all .4s ease;
+}
+.container .info .link:hover{
+    padding-bottom: 5px;
+    border-bottom: 1px solid #f2f2f2;
+}
+.container .info form h2:hover{
+    padding-bottom: 20px;
+    border-bottom: 1px solid forestgreen;
+}
+.container .info form .error{
+    color: red;
+    list-style: disc;
+    font-size: 20px;
+    text-decoration: underline;
+}

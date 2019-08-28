@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Indie Flower', cursive;
+}
+body{
+    background: #f2f2f2;
+}
+header .menu{
+    background: darkgoldenrod;
+}
+.container{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+.container .titulo h3{
+    display: inline-block;
+}
+.container .titulo{
+    color: crimson;
+    border-bottom: 1px solid transparent;
+    transition: all .4s ease;
+}
+.container .titulo:hover {
+    padding-bottom: 5px;
+    border-bottom: 1px solid crimson;
+    margin-bottom: 15px;
+}
+.container .carousel{
+    width: 100%;
+    height: 450px;
+    animation: box 3s linear 2s infinite alternate;
+    border: 1px solid coral;
+    border-radius: 30px;
+}
+
+.container section .titulo_cate h4{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-bottom: 45px;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+
+@keyframes box {
+    from {box-shadow: -1px 0px 18px 0px rgba(0,0,0,0.10);}
+    to {box-shadow: -1px 0px 18px 0px rgba(0,0,0,0.75);}
+}
+@keyframes go {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(180deg);}
+}

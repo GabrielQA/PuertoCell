@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Indie Flower', cursive;
+}
+body{
+    background: white;
+}
+.container{
+    width: 100%;
+}
+.container .thumb{
+    text-align: center;
+    width: 100%;
+}
+.container .info{
+    margin-top: 2%;
+    margin-bottom: 4%;
+    background: gainsboro;
+    text-align: center;
+    padding: 4px;
+    border-radius: 30px;
+    box-shadow: -1px 0px 18px 0px rgba(0,0,0,0.75);
+}
+.container .info form button{
+    width: 70%;
+}
+.container .info h2{
+    color: coral;
+    padding: 10px;
+    border: 1px solid transparent;
+    display: inline-block;
+    transition: all .4s ease;
+}
+.container .info h2:hover{ 
+    border: 1px solid coral;
+    border-radius: 30px;
+}
+.container .info form .error{
+    color: red;
+    list-style: disc;
+    font-size: 20px;
+    text-decoration: underline;
+}

@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main .container{
+    width: 50%;
+    background: ghostwhite;
+    border-radius: 30px;
+}
+
+main .container .descate{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+main .container .stock{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+p{
+    font-size: 20px;
+}
